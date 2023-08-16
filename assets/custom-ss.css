@@ -228,4 +228,11 @@ a.button.button_primary.js_addtc.atccrr {
 div#shopify-section-template--15836393570499__a9d822f9-bd9e-4749-b758-174398e5c7cb {
     display: none;
 }
-           
+.nt_se_template--15836393570499__78d12267-ebea-42ce-b32f-fdb249b56faa.container {
+    background: #6b24b2;
+    margin: 0;
+    margin-bottom: -8px;
+    padding-bottom: 8px;
+    margin-top: -10px;
+    padding-top: 3px;
+}
