@@ -12,6 +12,7 @@
       "block_order": [
         "89b1a94e-2cf5-4075-a6af-0969fbaeae2c"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/JD_0699_1.jpg",
         "parallax": false,
@@ -27,12 +28,23 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f": {
+      "type": "marquee",
+      "settings": {
+        "text1": "Hi Nykaa, We’re Bombae",
+        "text2": "Hi Nykaa, We’re Bombae",
+        "text3": "Hi Nykaa, We’re Bombae",
+        "text4": "Hi Nykaa, We’re Bombae"
       }
     }
   },
   "order": [
     "heading",
-    "main"
+    "main",
+    "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f"
   ]
 }
