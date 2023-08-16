@@ -161,6 +161,11 @@
       ],
       "settings": {
       }
+    },
+    "0f845740-a2b0-4ea4-a3ce-529b0b89d949": {
+      "type": "nyka-page-section",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -170,6 +175,7 @@
     "004aa58e-35bd-48e0-b63b-a1f7e99bbfec",
     "00b8268f-0bd6-4ca2-a88c-b9ea2a995417",
     "a9d822f9-bd9e-4749-b758-174398e5c7cb",
-    "b060e4ce-f0d4-47c6-9d80-450894011b08"
+    "b060e4ce-f0d4-47c6-9d80-450894011b08",
+    "0f845740-a2b0-4ea4-a3ce-529b0b89d949"
   ]
 }
