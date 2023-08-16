@@ -40,11 +40,77 @@
         "text3": "Hi Nykaa, We’re Bombae",
         "text4": "Hi Nykaa, We’re Bombae"
       }
+    },
+    "004aa58e-35bd-48e0-b63b-a1f7e99bbfec": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15836393570499__004aa58e-35bd-48e0-b63b-a1f7e99bbfec-img-2": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gif_compress_1.11_MB.gif",
+            "image_mb": "shopify:\/\/shop_images\/gif_compress_1.11_MB.gif",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "#",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15836393570499__004aa58e-35bd-48e0-b63b-a1f7e99bbfec-img-2"
+      ],
+      "settings": {
+        "se_height": "adapt",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "effect": "1",
+        "loop": true,
+        "autoplay": false,
+        "au_time": 6,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "layout": "nt_full",
+        "cl_bg": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
     }
   },
   "order": [
     "heading",
     "main",
-    "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f"
+    "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f",
+    "004aa58e-35bd-48e0-b63b-a1f7e99bbfec"
   ]
 }
