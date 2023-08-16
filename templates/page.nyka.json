@@ -34,7 +34,6 @@
     },
     "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f": {
       "type": "marquee",
-      "disabled": true,
       "settings": {
         "text1": "Hi Nykaa, We’re Bombae",
         "text2": "Hi Nykaa, We’re Bombae",
@@ -101,7 +100,7 @@
         "dot_color": "1",
         "layout": "nt_full",
         "cl_bg": "",
-        "mg": ",,50px,",
+        "mg": "",
         "pd": "",
         "mg_mb": "",
         "pd_mb": ""
