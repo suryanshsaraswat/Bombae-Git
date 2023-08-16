@@ -1,5 +1,16 @@
 {
   "sections": {
+    "78d12267-ebea-42ce-b32f-fdb249b56faa": {
+      "type": "custom_html",
+      "settings": {
+        "code": "<div class=\"main-head\" style=\"background:#6b24b2\">\n<h2 style=\"font-size:17px; text-aligbn:center; color:#fff\">hey Nykaa, we’re Bombae Every great relationship begins with a talking stage. Welcome to ours 💜<\/h2>\n<\/div>",
+        "layout": "container",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "heading": {
       "type": "pages_heading",
       "blocks": {
@@ -34,6 +45,7 @@
     },
     "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f": {
       "type": "marquee",
+      "disabled": true,
       "settings": {
         "text1": "Hi Nykaa, We’re Bombae",
         "text2": "Hi Nykaa, We’re Bombae",
@@ -169,6 +181,7 @@
     }
   },
   "order": [
+    "78d12267-ebea-42ce-b32f-fdb249b56faa",
     "heading",
     "main",
     "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f",
