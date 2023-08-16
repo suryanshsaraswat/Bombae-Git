@@ -34,6 +34,7 @@
     },
     "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f": {
       "type": "marquee",
+      "disabled": true,
       "settings": {
         "text1": "Hi Nykaa, We’re Bombae",
         "text2": "Hi Nykaa, We’re Bombae",
