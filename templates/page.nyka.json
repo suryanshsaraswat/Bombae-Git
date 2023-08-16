@@ -105,12 +105,22 @@
         "mg_mb": "",
         "pd_mb": ""
       }
+    },
+    "00b8268f-0bd6-4ca2-a88c-b9ea2a995417": {
+      "type": "marquee",
+      "settings": {
+        "text1": "FOR QUEENS, BY QUEENS     ",
+        "text2": "CRUELTY FREE ",
+        "text3": "PLASTIC NEUTRAL",
+        "text4": "VEGAN"
+      }
     }
   },
   "order": [
     "heading",
     "main",
     "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f",
-    "004aa58e-35bd-48e0-b63b-a1f7e99bbfec"
+    "004aa58e-35bd-48e0-b63b-a1f7e99bbfec",
+    "00b8268f-0bd6-4ca2-a88c-b9ea2a995417"
   ]
 }
