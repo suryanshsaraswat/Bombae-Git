@@ -64,7 +64,6 @@
     {%- assign escaped_page_title = page_title | escape -%}
     {%- unless escaped_page_title contains shop.name %} &ndash; {{ shop.name }}{%- endunless -%}
   {%- endcapture -%}
-x
   <title>{{ seo_title | strip }}</title>
 
   {%- if page_description %}<meta name="description" content="{{ page_description | escape }}">
