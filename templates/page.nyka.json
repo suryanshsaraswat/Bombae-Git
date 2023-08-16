@@ -60,17 +60,17 @@
             "cap_v_pos_mb": 50,
             "cap_h_pos_mb": 39,
             "txt_align_mb": "tl",
-            "cl_overlay": "#000",
+            "cl_overlay": "#000000",
             "cl_opacity": 0,
             "ani_img": "none",
             "ani_txt": "none",
             "bg_content_bl": false,
-            "bg_content_cl": "#fff",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 50,
             "content_pd": "40px 80px",
             "content_pd_mb": "10px 20px",
             "border_bl": false,
-            "br_color": "#222",
+            "br_color": "#222222",
             "br_style": "solid",
             "br_pd": 20,
             "br_pd_mb": 10
@@ -114,6 +114,53 @@
         "text3": "PLASTIC NEUTRAL",
         "text4": "VEGAN"
       }
+    },
+    "a9d822f9-bd9e-4749-b758-174398e5c7cb": {
+      "type": "rollplay-razor-lp",
+      "settings": {
+      }
+    },
+    "b060e4ce-f0d4-47c6-9d80-450894011b08": {
+      "type": "rollplay-razor-lp",
+      "blocks": {
+        "a32a2763-54a1-4ce3-a3f6-f2bba16496bb": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "rollplay-body-razor",
+            "featured_image": "shopify:\/\/shop_images\/razor-1_8cf32fd1-476b-4cd1-bef5-2c3116d1c1c3.jpg",
+            "featured_image2": "shopify:\/\/shop_images\/razor_f87254f8-3164-4b99-9299-f23757eb0e57.jpg",
+            "offersss": "",
+            "maqree": ""
+          }
+        },
+        "01bf031c-6ab2-466e-a700-835dfa9fb8dd": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "body-razor-rollplay-mini",
+            "featured_image": "shopify:\/\/shop_images\/Rollplay-mini-1st.png",
+            "featured_image2": "shopify:\/\/shop_images\/Rollplay-mini-2nd.png",
+            "offersss": "",
+            "maqree": ""
+          }
+        },
+        "a9fd5583-f951-491e-8400-be037799cc0e": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "body-razor-cartridges-rollplay",
+            "featured_image": "shopify:\/\/shop_images\/refills-2_52df54e1-7956-45b2-aab4-60fb3d460360.jpg",
+            "featured_image2": "shopify:\/\/shop_images\/refills_519ee566-e26a-4bc0-8d56-74d941ff56d1.jpg",
+            "offersss": "",
+            "maqree": ""
+          }
+        }
+      },
+      "block_order": [
+        "a32a2763-54a1-4ce3-a3f6-f2bba16496bb",
+        "01bf031c-6ab2-466e-a700-835dfa9fb8dd",
+        "a9fd5583-f951-491e-8400-be037799cc0e"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -121,6 +168,8 @@
     "main",
     "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f",
     "004aa58e-35bd-48e0-b63b-a1f7e99bbfec",
-    "00b8268f-0bd6-4ca2-a88c-b9ea2a995417"
+    "00b8268f-0bd6-4ca2-a88c-b9ea2a995417",
+    "a9d822f9-bd9e-4749-b758-174398e5c7cb",
+    "b060e4ce-f0d4-47c6-9d80-450894011b08"
   ]
 }
