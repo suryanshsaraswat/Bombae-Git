@@ -224,5 +224,8 @@ a.button.button_primary.js_addtc.atccrr {
                         .mobile_only_title{display:none}
                         .desktop_only_title{display:block}
                         .desktop_only_price{display:none}
-                        .mobile_only_price{display:block}}      
+                        .mobile_only_price{display:block}}
+div#shopify-section-template--15836393570499__a9d822f9-bd9e-4749-b758-174398e5c7cb {
+    display: none;
+}
            
