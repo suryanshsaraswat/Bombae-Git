@@ -2612,19 +2612,6 @@
         "settings": {
         }
       },
-      "10605408327587305396": {
-        "type": "shopify:\/\/apps\/easygift-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
-        "disabled": false,
-        "settings": {
-          "version": "v3"
-        }
-      },
-      "573254258818049612": {
-        "type": "shopify:\/\/apps\/crazy-egg\/blocks\/app-embed\/7ea73823-6ad9-4252-a63e-088397d54aed",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": true,
@@ -2634,6 +2621,19 @@
       "14418474333536001498": {
         "type": "shopify:\/\/apps\/cooee\/blocks\/app-embed-main\/2f17a8e7-57ed-4fda-b07d-26521d722e6f",
         "disabled": false,
+        "settings": {
+        }
+      },
+      "10605408327587305396": {
+        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "disabled": true,
+        "settings": {
+          "version": "v3"
+        }
+      },
+      "573254258818049612": {
+        "type": "shopify:\/\/apps\/crazy-egg\/blocks\/app-embed\/7ea73823-6ad9-4252-a63e-088397d54aed",
+        "disabled": true,
         "settings": {
         }
       }
