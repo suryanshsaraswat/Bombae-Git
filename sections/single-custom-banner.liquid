@@ -7,13 +7,18 @@
     }
 </style>
 <div class="main-blo" id="{{block.id}}">
-    <div class="desktop-blo">
-        <a href="{{block.settings.banner_url}}"><img src="{{block.settings.desk_img | img_url: 'master'}}" alt="{{block.id}}"></a>
-    </div>
-    <div class="mobile-blo">
-        <a href="{{block.settings.banner_url}}"><img src="{{block.settings.mob_img | img_url: 'master'}}" alt="{{block.id}}"></a>
-    </div>
+    {% for block in section.blocks %}
+        {% if block.settings.banner_url != blank %}
+        <div class="desktop-blo">
+            <a href="{{block.settings.banner_url}}"><img src="{{block.settings.desk_img | img_url: 'master'}}" alt="{{block.id}}"></a>
+            </div>
+            <div class="mobile-blo">
+                <a href="{{block.settings.banner_url}}"><img src="{{block.settings.mob_img | img_url: 'master'}}" alt="{{block.id}}"></a>
+                </div>
+            {% endif %}
 </div>
+
+        {% endfor %}
 {% schema  %}
 {
     "name": "Custom Banner",
