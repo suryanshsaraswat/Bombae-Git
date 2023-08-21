@@ -1,52 +1,60 @@
 <style>
-    .desktop-blo{display:block;max-width: 100%;}
-    .mobile-blo{display:none}
-    @media(max-width:450px){
-        .desktop-blo{display:none;}
-        .mobile-blo{display:block;max-width: 100%;}
+  .desktop-blo {
+    display: block;
+    max-width: 100%;
+  }
+  .mobile-blo {
+    display: none
+  }
+  @media(max-width:450px) {
+    .desktop-blo {
+      display: none;
     }
+    .mobile-blo {
+      display: block;
+      max-width: 100%;
+    }
+  }
 </style>
 <div class="main-blo" id="{{block.id}}">
-    {% for block in section.blocks %}
-        {% if block.settings.banner_url != blank %}
-        <div class="desktop-blo">
-            <a href="{{block.settings.banner_url}}"><img src="{{block.settings.desk_img | img_url: 'master'}}" alt="{{block.id}}"></a>
-            </div>
-            <div class="mobile-blo">
-                <a href="{{block.settings.banner_url}}"><img src="{{block.settings.mob_img | img_url: 'master'}}" alt="{{block.id}}"></a>
-                </div>
-            {% endif %}
-</div>
+  {% for block in section.blocks %}
+    {% if block.settings.banner_url != blank %}
+      <div class="desktop-blo">
+        <a href="{{block.settings.banner_url}}"><img src="{{block.settings.desk_img | img_url: 'master'}}" alt="{{block.id}}"></a>
+      </div>
+      <div class="mobile-blo">
+        <a href="{{block.settings.banner_url}}"><img src="{{block.settings.mob_img | img_url: 'master'}}" alt="{{block.id}}"></a>
+      </div>
+    {% endif %}
+  </div>
 
-        {% endfor %}
-{% schema  %}
-{
+{% endfor %}
+{% schema %}
+  {
     "name": "Custom Banner",
     "settings": [],
     "max_blocks": 1,
-    "blocks":[
-        {
-            "type":"image",
-            "name":"banner-block",
-            "settings": [
-                {
-                    "type":"image_picker",
-                    "id":"desk_img",
-                    "label":"Pick Desktop Image"
-                },
-                {
-                    "type":"image_picker",
-                    "id":"mob_img",
-                    "label":"Pick Mobile Image"
-                },
-                {
-                    "type":"url",
-                    "id":"banner_url",
-                    "label":"Select link"
-                }
-            ]
-        }
-    ]
+    "blocks": [
+      {
+        "type": "image",
+        "name": "banner-block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "desk_img",
+            "label": "Pick Desktop Image"
+          }, {
+            "type": "image_picker",
+            "id": "mob_img",
+            "label": "Pick Mobile Image"
+          }, {
+            "type": "url",
+            "id": "banner_url",
+            "label": "Select link"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "Custom Banner",
