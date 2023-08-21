@@ -51,17 +51,17 @@
             "cap_v_pos_mb": 50,
             "cap_h_pos_mb": 39,
             "txt_align_mb": "tl",
-            "cl_overlay": "#000",
+            "cl_overlay": "#000000",
             "cl_opacity": 0,
             "ani_img": "none",
             "ani_txt": "none",
             "bg_content_bl": false,
-            "bg_content_cl": "#fff",
+            "bg_content_cl": "#ffffff",
             "bg_content_op": 50,
             "content_pd": "40px 80px",
             "content_pd_mb": "10px 20px",
             "border_bl": false,
-            "br_color": "#222",
+            "br_color": "#222222",
             "br_style": "solid",
             "br_pd": 20,
             "br_pd_mb": 10
@@ -138,6 +138,24 @@
       ],
       "settings": {
       }
+    },
+    "fe376c8d-0af2-4f07-b709-d7289beb27ab": {
+      "type": "single-custom-banner",
+      "blocks": {
+        "87a75703-3297-47bc-9c87-5878c4dc2775": {
+          "type": "image",
+          "settings": {
+            "desk_img": "shopify:\/\/shop_images\/gift-desktop.jpg",
+            "mob_img": "shopify:\/\/shop_images\/last-image.png",
+            "banner_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "87a75703-3297-47bc-9c87-5878c4dc2775"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -145,6 +163,7 @@
     "main",
     "2033c3b7-ac3d-40f0-89fe-c559d2590e98",
     "3068be94-810f-4157-89db-3e1528c42ac0",
-    "a4473111-c034-4e27-91aa-5b7b6b7d0c52"
+    "a4473111-c034-4e27-91aa-5b7b6b7d0c52",
+    "fe376c8d-0af2-4f07-b709-d7289beb27ab"
   ]
 }
