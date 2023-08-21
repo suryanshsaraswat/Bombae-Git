@@ -19,6 +19,7 @@
 {% for block in section.blocks %}
   {% if block.settings.desk_img != 'blank'  %}
 <div class="main-blo" id="{{block.id}}">
+  <h2>{{ section.settings.main-head }}</h2>
       <div class="desktop-blo">
         <a href="{{block.settings.banner_url}}"><img src="{{block.settings.desk_img | img_url: 'master'}}" alt="{{block.id}}"></a>
       </div>
@@ -31,7 +32,14 @@
 {% schema %}
   {
     "name": "Custom Banner",
-    "settings": [],
+    "settings": [
+      {
+        "type":"text",
+        "id":"main-head",
+        "label":"Enter Section heading",
+        "default":"Section heading in H2"
+      }
+    ],
     "max_blocks": 1,
     "blocks": [
       {
