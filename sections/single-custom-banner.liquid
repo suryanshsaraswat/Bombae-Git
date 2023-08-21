@@ -6,6 +6,10 @@
   .mobile-blo {
     display: none
   }
+  .main-blo {
+    padding-top: 13px;
+    margin-bottom: 30px;
+  }
   @media(max-width:450px) {
     .desktop-blo {
       display: none;
@@ -17,6 +21,7 @@
   }
 </style>
 <div class="main-blo" id="{{block.id}}">
+  <h2>{{ section.settings.main-head }}</h2>
   {% for block in section.blocks %}
     {% if block.settings.desk_img != blank %}
       <div class="desktop-blo">
@@ -32,7 +37,14 @@
 {% schema %}
   {
     "name": "Custom Banner",
-    "settings": [],
+    "settings": [
+      {
+        "type": "text",
+        "id": "main-head",
+        "label": "Enter Section heading",
+        "default": "Section Heading in H2"
+      }
+    ],
     "max_blocks": 1,
     "blocks": [
       {
