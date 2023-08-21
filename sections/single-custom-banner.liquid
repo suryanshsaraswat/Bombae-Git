@@ -20,31 +20,22 @@
     }
   }
 </style>
-<div class="main-blo" id="{{block.id}}">
-  <h2>{{ section.settings.main-head }}</h2>
-  {% for block in section.blocks %}
-    {% if block.settings.desk_img != blank %}
+{% for block in section.blocks %}
+  {% if block.settings.desk_img != 'blank' %}
+    <div class="main-blo" id="{{block.id}}">
       <div class="desktop-blo">
         <a href="{{block.settings.banner_url}}"><img src="{{block.settings.desk_img | img_url: 'master'}}" alt="{{block.id}}"></a>
       </div>
       <div class="mobile-blo">
         <a href="{{block.settings.banner_url}}"><img src="{{block.settings.mob_img | img_url: 'master'}}" alt="{{block.id}}"></a>
       </div>
-    {% endif %}
-  </div>
-
+    </div>
+  {% endif %}
 {% endfor %}
 {% schema %}
   {
     "name": "Custom Banner",
-    "settings": [
-      {
-        "type": "text",
-        "id": "main-head",
-        "label": "Enter Section heading",
-        "default": "Section Heading in H2"
-      }
-    ],
+    "settings": [],
     "max_blocks": 1,
     "blocks": [
       {
