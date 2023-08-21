@@ -1,3 +1,8 @@
+<style>
+  .hidden-content-cat {
+    display: none;
+  }
+</style>
 {% if collection.url contains 'face' %}
   <div class="hidden-content-cat">
     <h1>Bombae Face Care</h1>
@@ -25,7 +30,7 @@
       </li>
     </ul>
   </div>
-  <p class="read-lesss">Read less</p>
+  <p class="read-lesss" style="display:none">Read less</p>
 {% endif %}
 
 <script>
