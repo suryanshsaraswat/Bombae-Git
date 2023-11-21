@@ -2281,7 +2281,7 @@
               "Offer": "Free Travel Pouch with Rollplay Body Razor 🛼",
               "image": "shopify:\/\/shop_images\/Rollplay-icon.png",
               "coupon": "MYGIFT",
-              "linkurl": "shopify:\/\/products\/rollplay-body-razor"
+              "linkurl": "shopify:\/\/products\/rollplay-body-razor-2"
             }
           },
           "5c189d27-0408-4f68-bf6f-d55c974a94f5": {
@@ -2534,7 +2534,7 @@
           "b34d6ded-8b3c-418c-9487-36ec23e31228": {
             "type": "Product",
             "settings": {
-              "featured_product": "rollplay-body-razor",
+              "featured_product": "rollplay-body-razor-2",
               "featured_image": "shopify:\/\/shop_images\/razor-1.jpg",
               "featured_image2": "shopify:\/\/shop_images\/1_4c3eff60-3bd0-4a6b-b690-3e83a405caf3.jpg",
               "offersss": "",
@@ -2599,25 +2599,6 @@
           "position": "right"
         }
       },
-      "6897698614501909729": {
-        "type": "shopify:\/\/apps\/superspeed-googles-page-speed\/blocks\/app-embed\/ea1b2c2c-4644-44b9-b10b-fdb914884a8c",
-        "disabled": false,
-        "settings": {
-          "optimization_level": "extreme"
-        }
-      },
-      "3584220813331830442": {
-        "type": "shopify:\/\/apps\/superspeed-googles-page-speed\/blocks\/ss-v3\/ea1b2c2c-4644-44b9-b10b-fdb914884a8c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": true,
-        "settings": {
-        }
-      },
       "14418474333536001498": {
         "type": "shopify:\/\/apps\/cooee\/blocks\/app-embed-main\/2f17a8e7-57ed-4fda-b07d-26521d722e6f",
         "disabled": false,
@@ -2629,12 +2610,6 @@
         "disabled": true,
         "settings": {
           "version": "v3"
-        }
-      },
-      "573254258818049612": {
-        "type": "shopify:\/\/apps\/crazy-egg\/blocks\/app-embed\/7ea73823-6ad9-4252-a63e-088397d54aed",
-        "disabled": true,
-        "settings": {
         }
       }
     }
