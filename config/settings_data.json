@@ -542,7 +542,7 @@
             "type": "simple",
             "settings": {
               "title": "Laser",
-              "url": "shopify:\/\/pages\/laser",
+              "url": "shopify:\/\/pages\/laser-clinic",
               "open_link": "_blank",
               "icon": "",
               "cus_cl": false,
@@ -982,7 +982,7 @@
             "type": "menu",
             "settings": {
               "title": "Laser Clinic",
-              "url": "shopify:\/\/pages\/laser",
+              "url": "shopify:\/\/pages\/laser-clinic",
               "open_link": "_blank",
               "menu": "",
               "icon": "",
@@ -1987,7 +1987,7 @@
             "disabled": true,
             "settings": {
               "text": "",
-              "linkurl": "shopify:\/\/pages\/laser",
+              "linkurl": "shopify:\/\/pages\/laser-clinic",
               "open_link": "_blank"
             }
           },
@@ -2003,7 +2003,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Laser",
-              "linkurl": "shopify:\/\/pages\/laser",
+              "linkurl": "shopify:\/\/pages\/laser-clinic",
               "open_link": "_blank"
             }
           },
