@@ -485,7 +485,7 @@
             "type": "simple",
             "settings": {
               "title": "Face Care",
-              "url": "shopify://collections/face",
+              "url": "shopify://collections/face-products-for-women",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -843,7 +843,7 @@
               "icon": "",
               "lb": "",
               "lb_cl": "",
-              "cat1": "face",
+              "cat1": "face-products-for-women",
               "url1": "",
               "image1": "shopify://shop_images/1_2.png",
               "cat2": "body",
@@ -1938,7 +1938,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Face Care",
-              "linkurl": "shopify://collections/face",
+              "linkurl": "shopify://collections/face-products-for-women",
               "open_link": "_self"
             }
           },
